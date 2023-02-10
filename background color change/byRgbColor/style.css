@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    background-color: #fff;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#fff;
+    border-radius: 5px;
+    color: rgb(202, 20, 20);
+    border: 1px solid blue;
+}

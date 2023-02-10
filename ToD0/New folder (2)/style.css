@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background: yellowgreen;
+}
+
+.main {
+    background-color: aliceblue;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+
+.task {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.task input {
+    padding: 5px;
+}
+
+.task .addTask {
+    display: inline-block;
+    background: rgb(240, 243, 35);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.task .addTask:hover {
+    box-shadow: 2px 2px 5px rgb(66, 63, 63);
+}
+
+.showTask {
+    background-color: tomato;
+    color: rgb(240, 243, 35);
+}
+
+.showTask ul {
+    transition: all .2s;
+}
+
+.showTask ul li {
+    height: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showTask ul li span:first-child {
+    width: 80%;
+}
+
+.showTask ul li span:last-child {
+    margin-right: 20px;
+}
+
+.showTask ul li span {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.showTask ul li .deleteBtn {
+    transition: all .2s;
+    background-color: chartreuse;
+    color: red;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.showTask ul li .deleteBtn:hover {
+    color: black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.showTask ul li .editBtn {
+    transition: all .2s;
+    background-color: chartreuse;
+    color: red;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.showTask ul li .editBtn:hover {
+    color: black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.showTask ul li:last-child {
+    border-bottom: none;
+}
+
+.showTask ul li:first-child {
+    border-top: none;
+}
+
+.showTask ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+}

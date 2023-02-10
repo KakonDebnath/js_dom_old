@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(#0000ff, #ea00ff);
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    color: #fff;
+}
+
+.contentUl {
+    padding: 20px;
+}
+
+.contentUl h2 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.contentUl li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#66ff00, #00ff95a6);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+
+/* .contentUl li:hover {
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+ */
+
+.animation {
+    transform: translateY(300px) rotateZ(50deg);
+    opacity: 0;
+}
+
+.contentUl li .textItem {}
+
+.contentUl li .textItem p {
+    text-transform: capitalize;
+}
+
+.contentUl li .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 120px;
+}
+
+.contentUl li .action .editBtn {}
+
+.contentUl li .action .editBtn,
+.contentUl li .action .deleteBtn {
+    cursor: pointer;
+    padding: 5px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: all 1s;
+}
+
+.contentUl li .action .editBtn:hover,
+.contentUl li .action .deleteBtn:hover {
+    box-shadow: 2px 2px 5px #3b3b3b;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.contentUl li .action .deleteBtn {}
+
+.text {
+    display: none;
+}

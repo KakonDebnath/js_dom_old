@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+body{
+	background-color: #00438C;
+}
+.container{
+	color: #fff;
+	background-color: #5B93CE;
+	width: 400px;
+	height: 200px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.header{
+	text-align: center;
+	padding-top: 20px;
+}
+.header h1{}
+.clock{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+}
+.clock .hour{}
+.clock .minitue{}
+.clock .second{}
+.progressBar{
+	width: 200px;
+	height: 5px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0px;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    font-family: sans-serif;
+}
+.header h1{
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 5px #03a9f4;
+}
+
+.content{
+    display: flex;
+    padding: 15px 20px;
+    text-transform: capitalize;
+}
+.left{
+    flex-basis: 45%;
+}
+.left h3,.right h3{
+    text-align: center;
+    padding: 15px;
+}
+
+#text{
+    padding: 10px;
+}
+button#submit {
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    left: 51%;
+}
+.right{
+    flex-basis: 45%;
+}
+.right .taskItem{
+    background-color: rgb(158 158 158 / 25%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.taskItem .action span{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+span.edit{
+    background-color: rgb(0, 183, 255);
+}
+span.delete{
+    background-color: crimson;
+}
+
+#msg{
+    color: red;
+}
+
+.deleteAnimation {
+    transform: translateY(100px) rotateZ(20deg);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.editAnimation {
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}

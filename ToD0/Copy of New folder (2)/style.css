@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background: yellowgreen;
+}
+
+.main {
+    background-color: aliceblue;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+
+.task {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.task input {
+    padding: 5px;
+}
+
+.task .addTask {
+    display: inline-block;
+    background: rgb(240, 243, 35);
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+    border: none;
+    text-transform: uppercase;
+}
+
+.task .addTask:hover {
+    box-shadow: 2px 2px 5px rgb(66, 63, 63);
+}
+
+.showTask {
+    color: rgb(240, 243, 35);
+    padding-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.showTask .taskList h2 {
+    text-align: center;
+    color: #000;
+}
+
+.showTask ul li {
+    height: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(255, 83, 71);
+    width: 200px;
+}
+
+.showTask ul li:last-child {
+    border-bottom: none;
+}
+
+.showTask ul li:first-child {
+    border-top: none;
+}
+
+.showTask ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.showTask .complateTaskList {
+    color: #000;
+    margin-right: 20px;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.container {
+    background-color: #73cfe6;
+    padding: 20px;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.task {
+    text-align: center;
+    padding: 20px;
+}
+
+.task form input[type="text"] {
+    padding: 5px;
+}
+
+.task form input[type="submit"] {
+    padding: 5px;
+}
+
+.content {
+    background-color: bisque;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.incomplateTask,
+.complateTask {
+    flex-basis: 45%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content h2 {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.incomplateTask ul li {
+    background-color: #ededed;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+
+.incomplateTask ul li label {
+    padding-left: 5px;
+}
+
+.incomplateTask ul li .edit {
+    cursor: pointer;
+    border: 1px solid #FFF;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: all .3s;
+    box-shadow: 2px 2px 5px rgb(58, 56, 56);
+}
+
+.complateTask ul li {
+    background-color: red;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complateTask ul li:last-child {
+    border-bottom: none;
+}
+
+.complateTask ul li .delete {
+    cursor: pointer;
+    border: 1px solid #FFF;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: all .3s;
+    box-shadow: 2px 2px 5px rgb(58, 56, 56);
+}
+
+.complateTask ul li .delete:hover {
+    background-color: blanchedalmond;
+    color: crimson;
+}

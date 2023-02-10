@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>This is test to do app</h1>
+        </div>
+        <div class="content">
+            <div class="left">
+                <h3>Please Insert Below For Task</h3>
+                <form id="form">
+                    <textarea name="text" id="text" cols="50" rows="10"></textarea> <br>
+                    <div id="msg"></div>
+                    <button type="submit" id="submit">Add Task</button>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Your Task Here</h3>
+                <div id="allTask">
+                    <div class="taskItem">
+                        <p>This is dummy Task</p>
+                        <div class="action">
+                            <span onClick="updateTask(this)" class="edit" id="edit">Edit</span>
+                            <span onClick="deleteTask(this)" class="delete" id="delete">Delete</span>
+                        </div>
+                    </div>
+                    <div class="taskItem">
+                        <p>This is dummy Task</p>
+                        <div class="action">
+                            <span onClick="updateTask(this)" class="edit" id="edit">Edit</span>
+                            <span onClick="deleteTask(this)" class="delete" id="delete">Delete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
